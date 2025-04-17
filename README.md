@@ -13,7 +13,7 @@
 
 ## Code
 
-Ours model and code is comming soon.
+Ours model and code is coming soon.
 
 ## Citation
 ```
