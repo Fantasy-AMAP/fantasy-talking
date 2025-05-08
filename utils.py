@@ -28,7 +28,8 @@ def save_video(frames, save_path, fps, quality=9, ffmpeg_params=None):
 
 def get_audio_features(wav2vec, audio_processor, audio_path, fps, num_frames):
     sr = 16000
-    audio_input, sample_rate = librosa.load(audio_path, sr=sr)  # 采样率为 16kHz
+    audio_, orig_sr = librosa.load(audio_path, sr=None)  # 这里无法指定输出采样率，给定None，然后重采样保证输入模型的音频为16k
+    audio_input = librosa.resample(audio_, orig_sr=orig_sr, target_sr=sr)
 
     start_time = 0
     # end_time = (0 + (num_frames - 1) * 1) / fps
