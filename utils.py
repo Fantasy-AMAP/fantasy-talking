@@ -44,7 +44,7 @@ def get_audio_features(wav2vec, audio_processor, audio_path, fps, num_frames):
         audio_segment = audio_input
 
     input_values = audio_processor(
-        audio_segment, sampling_rate=sample_rate, return_tensors="pt"
+        audio_segment, sampling_rate=sr, return_tensors="pt"
     ).input_values.to("cuda")
 
     with torch.no_grad():
