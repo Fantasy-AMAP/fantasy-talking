@@ -1,4 +1,4 @@
-[English]("./tips.md")
+[English](./tips.m)
 
 # FantasyTalking 使用指南
 
