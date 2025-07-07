@@ -1,4 +1,4 @@
-[English](./tips.m)
+[English](./tips.md)
 
 # FantasyTalking 使用指南
 
