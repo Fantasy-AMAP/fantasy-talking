@@ -1,4 +1,4 @@
-[中文]("./tips_zh.md")
+[中文](./tips_zh.md)
 
 # FantasyTalking User Guide
 
