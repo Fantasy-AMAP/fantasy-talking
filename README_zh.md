@@ -1,11 +1,13 @@
 [中文阅读](./README_zh.md)
-# FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis
+# FantasyTalking : Realistic Talking Portrait Generation via Coherent Motion Synthesis
 
 [![Home Page](https://img.shields.io/badge/Project-FantasyTalking-blue.svg)](https://fantasy-amap.github.io/fantasy-talking/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2504.04842-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2504.04842)
 [![hf_paper](https://img.shields.io/badge/🤗-FantasyTalking-red.svg)](https://huggingface.co/acvlab/FantasyTalking)
 
 ## 🔥 Latest News!!
+* 2025年7月7日: 发布了[使用指南](./docs/tips_zh.md)，用于解决近期研究者和社区反馈的常见问题。
+* 2025年7月5日: 我们的工作被 ACM MM 2025 接收!
 * 2025年4月29日: 我们的工作被加入到[ComfyUI-Wan](https://github.com/kijai/ComfyUI-WanVideoWrapper) ! 感谢 [kijai](https://github.com/kijai) 更新 👏!
 * 2025年4月28日: 开源了音频条件下的推理代码和模型权重。
 

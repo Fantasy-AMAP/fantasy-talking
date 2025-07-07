@@ -6,9 +6,10 @@
 [![hf_paper](https://img.shields.io/badge/🤗-FantasyTalking-red.svg)](https://huggingface.co/acvlab/FantasyTalking)
 
 ## 🔥 Latest News!!
+* July 7, 2025: Released a [user guide](./docs/tips.md) to solve the common issues reported by recent researchers and the community.
+* July 5, 2025: Our work is accepted by ACM MM 2025!
 * April 29, 2025: Our work is merged to [ComfyUI-Wan](https://github.com/kijai/ComfyUI-WanVideoWrapper) ! Thank [kijai](https://github.com/kijai) for the update 👏!
 * April 28, 2025: We released the inference code and model weights for audio conditions.
-
 
 ## Quickstart
 ### 🛠️Installation
