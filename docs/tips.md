@@ -82,8 +82,7 @@ Adjusting `end_percent` in the **Audio CFG Schedule** node yields markedly diffe
   <tr>
     <td>0.1</td>
     <td>
-      <video controls style="width: 220px; height: auto;">
-        <source src="https://github.com/user-attachments/assets/3479089e-e5ca-45ad-a69e-88ef4e11603b" type="video/mp4">
+      <video style="width: 220px; height: auto;" src="https://github.com/user-attachments/assets/e5dbd0b9-7c18-4627-aa16-881e513d16a4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
@@ -92,8 +91,7 @@ Adjusting `end_percent` in the **Audio CFG Schedule** node yields markedly diffe
   <tr>
     <td>0.4</td>
     <td>
-      <video controls style="width: 220px; height: auto;">
-        <source src="https://github.com/user-attachments/assets/716c830f-bef2-44cc-970b-f776efd1f1ee" type="video/mp4">
+      <video style="width: 220px; height: auto;" src="https://github.com/user-attachments/assets/e80c328b-d1d2-43f9-bad8-665ac78dfb40" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
@@ -102,8 +100,7 @@ Adjusting `end_percent` in the **Audio CFG Schedule** node yields markedly diffe
   <tr>
     <td>0.7</td>
     <td>
-      <video controls style="width: 220px; height: auto;">
-        <source src="https://github.com/user-attachments/assets/82189ed3-5647-4277-b27a-4753619024a2" type="video/mp4">
+      <video style="width: 220px; height: auto;" src="https://github.com/user-attachments/assets/c44a8499-93d2-4038-b72e-9174b5652aa0" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
@@ -112,8 +109,7 @@ Adjusting `end_percent` in the **Audio CFG Schedule** node yields markedly diffe
   <tr>
     <td>1.0</td>
     <td>
-      <video controls style="width: 220px; height: auto;">
-        <source src="https://github.com/user-attachments/assets/9e0a4f90-d2e6-4ac8-baf9-7979090df9c0" type="video/mp4">
+      <video style="width: 220px; height: auto;" src="https://github.com/user-attachments/assets/0f100d85-1b78-4ea1-958a-7634fcce5888" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
