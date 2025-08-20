@@ -94,3 +94,7 @@ If you find this repository useful, please consider giving a star ⭐ and citati
 
 ## Acknowledgments
 Thanks to [Wan2.1](https://github.com/Wan-Video/Wan2.1), [HunyuanVideo](https://github.com/Tencent/HunyuanVideo), and [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) for open-sourcing their models and code, which provided valuable references and support for this project. Their contributions to the open-source community are truly appreciated.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Fantasy-AMAP/fantasy-talking&type=Date)](https://www.star-history.com/#Fantasy-AMAP/fantasy-talking&Date)
