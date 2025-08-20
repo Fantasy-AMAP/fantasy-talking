@@ -94,3 +94,7 @@ python app.py
 
 ## 致谢
 感谢[Wan2.1](https://github.com/Wan-Video/Wan2.1)、[HunyuanVideo](https://github.com/Tencent/HunyuanVideo)和[DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio)开源他们的模型和代码，为该项目提供了宝贵的参考和支持。他们对开源社区的贡献真正值得赞赏。
+
+## Star 历史
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Fantasy-AMAP/fantasy-talking&type=Date)](https://www.star-history.com/#Fantasy-AMAP/fantasy-talking&Date)
