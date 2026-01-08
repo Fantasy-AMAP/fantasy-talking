@@ -4,21 +4,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="[ACM MM 2025] FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis">
+    content="[ACM MM 2025] FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis">
   <meta name="keywords" content="Video Generation, Diffusion Models">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- More research下拉菜单 开始 -->
-  <div style="width:100%; display: flex; justify-content: center; align-items: center; margin-top: 20px; position: relative; z-index: 100;">
+  <div
+    style="width:100%; display: flex; justify-content: center; align-items: center; margin-top: 20px; position: relative; z-index: 100;">
     <div style="position: relative; display:inline-block;">
-      <button id="moreResearchBtn" style="background-color: #fff; color: #333; padding: 10px 24px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px; cursor: pointer;">
+      <button id="moreResearchBtn"
+        style="background-color: #fff; color: #333; padding: 10px 24px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px; cursor: pointer;">
         More research ▼
       </button>
-      <div id="moreResearchDropdown" style="display: none; position: absolute; left: 0; top: 110%; background: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow:0 6px 12px rgba(0,0,0,0.1); min-width: 180px; z-index: 999;">
-        <a href="https://fantasy-amap.github.io/fantasy-id/" target="_blank" style="display:block; padding:12px 18px; color:#333; text-decoration:none;">FantasyID</a>
-        <a href="https://fantasy-amap.github.io/fantasy-talking/" target="_blank" style="display:block; padding:12px 18px; color:#333; text-decoration:none;">FantasyTalking</a>
-        <a href="https://fantasy-amap.github.io/fantasy-portrait/" target="_blank" style="display:block; padding:12px 18px; color:#333; text-decoration:none;">FantasyPortrait</a>
-        <a href="https://fantasy-amap.github.io/fantasy-talking2/" target="_blank" style="display:block; padding:12px 18px; color:#333; text-decoration:none;">FantasyTalking2</a>
+      <div id="moreResearchDropdown"
+        style="display: none; position: absolute; left: 0; top: 110%; background: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow:0 6px 12px rgba(0,0,0,0.1); min-width: 180px; z-index: 999;">
+        <a href="https://fantasy-amap.github.io/fantasy-id/" target="_blank"
+          style="display:block; padding:12px 18px; color:#333; text-decoration:none;">FantasyID</a>
+        <a href="https://fantasy-amap.github.io/fantasy-talking/" target="_blank"
+          style="display:block; padding:12px 18px; color:#333; text-decoration:none;">FantasyTalking</a>
+        <a href="https://fantasy-amap.github.io/fantasy-portrait/" target="_blank"
+          style="display:block; padding:12px 18px; color:#333; text-decoration:none;">FantasyPortrait</a>
+        <a href="https://fantasy-amap.github.io/fantasy-talking2/" target="_blank"
+          style="display:block; padding:12px 18px; color:#333; text-decoration:none;">FantasyTalking2</a>
       </div>
     </div>
   </div>
@@ -27,16 +34,16 @@
     // 简单的下拉菜单JS逻辑
     const btn = document.getElementById('moreResearchBtn');
     const menu = document.getElementById('moreResearchDropdown');
-    btn.onclick = function(e) {
+    btn.onclick = function (e) {
       e.stopPropagation();
       menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
     };
     // 点击别处隐藏菜单
-    document.body.addEventListener('click', function() {
+    document.body.addEventListener('click', function () {
       menu.style.display = 'none';
     });
   </script>
-  
+
   <title>FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -632,12 +639,13 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@article{wang2025fantasytalking,
-    title={FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis},
-    author={Wang, Mengchao and Wang, Qiang and Jiang, Fan and Fan, Yaqi and Zhang, Yunpeng and Qi, Yonggang and Zhao, Kun and Xu, Mu},
-    journal={arXiv preprint arXiv:2504.04842},
-    year={2025}
-  }</code></pre>
+      <pre><code>@inproceedings{wang2025fantasytalking,
+  title={Fantasytalking: Realistic talking portrait generation via coherent motion synthesis},
+  author={Wang, Mengchao and Wang, Qiang and Jiang, Fan and Fan, Yaqi and Zhang, Yunpeng and Qi, Yonggang and Zhao, Kun and Xu, Mu},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={9891--9900},
+  year={2025}
+}</code></pre>
     </div>
   </section>
 
