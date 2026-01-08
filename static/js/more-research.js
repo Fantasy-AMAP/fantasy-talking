@@ -2,6 +2,19 @@ async function loadMoreResearchDropdown({
   mountId = "moreResearchDropdown",
   jsonUrl = "https://github.com/Fantasy-AMAP/.github/blob/main/profile/research.json"
 } = {}) {
+
+  // 简单的下拉菜单JS逻辑
+  const btn = document.getElementById('moreResearchBtn');
+  const menu = document.getElementById('moreResearchDropdown');
+  btn.onclick = function (e) {
+    e.stopPropagation();
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+  };
+  // 点击别处隐藏菜单
+  document.body.addEventListener('click', function () {
+    menu.style.display = 'none';
+  });
+ 
   const mount = document.getElementById(mountId);
   if (!mount) return;
 

@@ -18,31 +18,9 @@
       </button>
       <div id="moreResearchDropdown"
         style="display: none; position: absolute; left: 0; top: 110%; background: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow:0 6px 12px rgba(0,0,0,0.1); min-width: 180px; z-index: 999;">
-        <a href="https://fantasy-amap.github.io/fantasy-id/" target="_blank"
-          style="display:block; padding:12px 18px; color:#333; text-decoration:none;">FantasyID</a>
-        <a href="https://fantasy-amap.github.io/fantasy-talking/" target="_blank"
-          style="display:block; padding:12px 18px; color:#333; text-decoration:none;">FantasyTalking</a>
-        <a href="https://fantasy-amap.github.io/fantasy-portrait/" target="_blank"
-          style="display:block; padding:12px 18px; color:#333; text-decoration:none;">FantasyPortrait</a>
-        <a href="https://fantasy-amap.github.io/fantasy-talking2/" target="_blank"
-          style="display:block; padding:12px 18px; color:#333; text-decoration:none;">FantasyTalking2</a>
       </div>
     </div>
   </div>
-  <!-- More research下拉菜单 结束 -->
-  <script>
-    // 简单的下拉菜单JS逻辑
-    const btn = document.getElementById('moreResearchBtn');
-    const menu = document.getElementById('moreResearchDropdown');
-    btn.onclick = function (e) {
-      e.stopPropagation();
-      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
-    };
-    // 点击别处隐藏菜单
-    document.body.addEventListener('click', function () {
-      menu.style.display = 'none';
-    });
-  </script>
 
   <title>FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis</title>
 
@@ -84,17 +62,19 @@
         <h1 class="title is-1 publication-title hero-title">FantasyTalking</h1>
         <p class="subtitle hero-subtitle">Realistic Talking Portrait Generation via Coherent Motion Synthesis</p>
 
-        <div class="publication-authors hero-authors">
-          <span class="author-block"><a href="https://github.com/chaochao0">Mengchao Wang</a><sup>1*</sup></span>
-          <span class="author-block"><a href="https://github.com/wangqiang9">Qiang Wang</a><sup>1*</sup></span>
-          <span class="author-block"><a href="https://frankjiang.github.io">Fan Jiang</a><sup>1†</sup></span>
-        </div>
-        <div class="publication-authors hero-authors">
-          <span class="author-block"><a href="https://github.com/Peppa12134">Yaqi Fan</a><sup>2</sup></span>
-          <span class="author-block"><a href="https://github.com/bruce2233/">Yunpeng Zhang</a><sup>1,2</sup></span>
-          <span class="author-block"><a href="https://qugank.github.io/">YongGang Qi</a><sup>2‡</sup></span>
-          <span class="author-block"><a href="https://github.com/Fantasy-AMAP">Kun Zhao</a><sup>1</sup></span>
-          <span class="author-block"><a href="https://github.com/Fantasy-AMAP">Mu Xu</a><sup>1</sup></span>
+        <div class="publication-authors">
+          <div class="hero-authors">
+            <span class="author-block"><a href="https://github.com/chaochao0">Mengchao Wang</a><sup>1*</sup></span>
+            <span class="author-block"><a href="https://github.com/wangqiang9">Qiang Wang</a><sup>1*</sup></span>
+            <span class="author-block"><a href="https://frankjiang.github.io">Fan Jiang</a><sup>1†</sup></span>
+          </div>
+          <div class="hero-authors">
+            <span class="author-block"><a href="https://github.com/Peppa12134">Yaqi Fan</a><sup>2</sup></span>
+            <span class="author-block"><a href="https://github.com/bruce2233/">Yunpeng Zhang</a><sup>1,2</sup></span>
+            <span class="author-block"><a href="https://qugank.github.io/">YongGang Qi</a><sup>2‡</sup></span>
+            <span class="author-block"><a href="https://github.com/Fantasy-AMAP">Kun Zhao</a><sup>1</sup></span>
+            <span class="author-block"><a href="https://github.com/Fantasy-AMAP">Mu Xu</a><sup>1</sup></span>
+          </div>
         </div>
 
         <div class="publication-authors hero-affiliations">
@@ -110,7 +90,8 @@
 
         <div class="publication-links">
           <span class="link-block">
-            <a href="https://arxiv.org/pdf/2504.04842" class="external-link button is-normal is-rounded is-dark">
+            <a href="https://dl.acm.org/doi/pdf/10.1145/3746027.3755217"
+              class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                 <i class="fas fa-file-pdf"></i>
               </span>
@@ -132,6 +113,24 @@
                 <i class="fab fa-github"></i>
               </span>
               <span>Code</span>
+            </a>
+          </span>
+          <span class="link-block">
+            <a href="https://huggingface.co/acvlab/FantasyTalking"
+              class="external-link button is-normal is-rounded is-dark" target="_blank">
+              <span class="icon">
+                <img class="brand-icon" src="./static/img/huggingface.svg" alt="HuggingFace">
+              </span>
+              <span>Model</span>
+            </a>
+          </span>
+          <span class="link-block">
+            <a href="https://modelscope.cn/models/amap_cvlab/FantasyTalking"
+              class="external-link button is-normal is-rounded is-dark" target="_blank">
+              <span class="icon">
+                <img class="brand-icon" src="./static/img/modelscope.svg" alt="ModelScope">
+              </span>
+              <span>Model</span>
             </a>
           </span>
         </div>

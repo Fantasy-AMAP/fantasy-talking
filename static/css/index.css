@@ -233,6 +233,7 @@ code {
   align-items: center;
   color: var(--ink-1);
   font-size: 0.98rem;
+  margin-top: var(--space-3);
 }
 
 .hero-notes {
@@ -481,10 +482,21 @@ video {
   }
 }
 
-
 .footer .icon-link {
     font-size: 25px;
     color: #000;
+}
+
+.brand-icon{
+  width: 2em;
+  height: 2em;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+.button.is-dark .brand-icon{
+  filter: invert(1);
 }
 
 .link-block a {
